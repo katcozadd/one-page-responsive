@@ -1,0 +1,25 @@
+{
+  "name": "one-page-responsive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+  "dependencies": {
+    "node-sass": "4.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katcozadd/one-page-responsive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katcozadd/one-page-responsive/issues"
+  },
+  "homepage": "https://github.com/katcozadd/one-page-responsive#readme"
+}
