@@ -15,7 +15,8 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #000; }
+  color: #000;
+  padding: 2rem; }
 
 .heading-primary {
   margin-bottom: 60px;
@@ -51,6 +52,38 @@ body {
   position: relative; }
   .composition__photo {
     width: 100%; }
+
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform .3s; }
+  .feature-box__icon {
+    font-size: 6rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, #C8C4BD, #6E6B68);
+    -webkit-background-clip: text;
+    color: transparent; }
+    .feature-box__icon-1 {
+      font-size: 3rem;
+      display: inline;
+      padding-right: 1.5rem; }
+    .feature-box__icon-2 {
+      font-size: 3rem;
+      display: inline;
+      padding-right: 1.5rem; }
+    .feature-box__icon-3 {
+      font-size: 3rem;
+      display: inline;
+      padding-right: 1.5rem; }
+    .feature-box__icon-4 {
+      font-size: 3rem;
+      display: inline;
+      padding-right: 1.5rem; }
 
 .row {
   max-width: 114rem;
@@ -115,12 +148,14 @@ body {
 
 .section-about {
   padding: 10rem 0;
-  background-color: #C8C4BD; }
+  background-color: #e5dfd5; }
 
-.section-photos {
+.section-quote {
   padding: 10rem 0;
-  background-color: #814A41; }
+  height: 100%;
+  background-image: linear-gradient(to right bottom, rgba(200, 196, 189, 0.8), rgba(110, 107, 104, 0.8)), url(../img/redo-8.jpg);
+  background-size: cover; }
 
 .section-services {
   padding: 10rem 0;
-  background-color: #C8C4BD; }
+  background-color: #e5dfd5; }
