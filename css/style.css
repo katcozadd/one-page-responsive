@@ -32,6 +32,16 @@ body {
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 14.5px; }
+  .heading-primary--sub2 {
+    display: block;
+    font-size: 4rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 14.5px;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 30%); }
 
 .heading-secondary {
   font-size: 2.3rem;
@@ -145,6 +155,22 @@ body {
     left: 50%;
     transform: translate(-50%, -20%);
     text-align: center; }
+
+.main-nav,
+.main {
+  position: relative; }
+
+.main-nav {
+  background: #fff;
+  height: 80px;
+  z-index: 150;
+  margin-bottom: -80px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
+
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0; }
 
 .section-about {
   padding: 10rem 0;

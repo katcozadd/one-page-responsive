@@ -24,6 +24,18 @@ body {
 			text-transform: uppercase;
 			letter-spacing: 14.5px;
 		}
+
+		&--sub2 {
+			display: block;
+			font-size: 4rem;
+			font-weight: 100;
+			text-transform: uppercase;
+			letter-spacing: 14.5px;
+			position: relative;
+	        top: 40%;
+	        left: 50%;
+	        transform: translate(-50%, 30%);
+		}
 }
 
 .heading-secondary {
